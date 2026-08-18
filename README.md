@@ -1,52 +1,83 @@
-🍕 Pizza Billing System
+# 🍕 Pizza Billing System
 
-A simple Python console-based pizza ordering and billing system that allows users to select pizza size, choose quantities, add extra cheese and cold drinks, and calculate the final bill with delivery charges.
+A simple **Python-based Pizza Ordering and Billing System** made using basic Python concepts like `while` loops, `if-elif-else`, user input, variables, and formatted output.
 
-✨ Features
-🍕 Select pizza size:
-Small — ₹150
-Medium — ₹250
-Large — ₹350
-🧀 Add extra cheese — ₹50 per packet
-🥤 Add cold drinks — ₹60 per bottle
-🚚 ₹50 delivery charge for orders below ₹500
-🎁 Free delivery for orders of ₹500 or more
-➕ Option to add additional items
-🧾 Generates a formatted final bill
-🛠️ Technologies Used
-Python 3
-if-elif-else statements
-while loops
-User input
-Arithmetic operations
-f-strings
-▶️ How to Run
-Install Python 3 on your computer.
-Clone the repository:
-git clone https://github.com/your-username/pizza-billing-system.git
+## 📌 About the Project
 
-Open the project folder:
-cd pizza-billing-system
+This program allows the user to:
 
-Run the program:
-python pizza.py
+* Select a pizza size — Small, Medium, or Large
+* Enter the quantity of pizzas
+* Add extra cheese
+* Add cold drinks
+* Add more items to the order
+* Calculate the total bill
+* Apply delivery charges
+* Get **free delivery on orders of ₹499 or more**
+* Display a formatted final bill
 
-📂 Project Structure
-pizza-billing-system/
-│
-├── pizza.py
-└── README.md
+## 💰 Price List
 
-🚀 Future Improvements
-Support multiple pizza sizes in one order
-Add discounts and coupons
-Improve input validation
-Add a graphical user interface
-Add customer details
-Add payment options
-Store orders in a database
-👨‍💻 Author
+| Item               |      Price |
+| ------------------ | ---------: |
+| 🍕 Small Pizza     |       ₹150 |
+| 🍕 Medium Pizza    |       ₹250 |
+| 🍕 Large Pizza     |       ₹350 |
+| 🧀 Extra Cheese    | ₹50/packet |
+| 🥤 Cold Drink      | ₹60/bottle |
+| 🛵 Delivery Charge |        ₹50 |
 
-Your Name
+### 🚚 Delivery Rule
 
-⭐ If you like this project, consider giving the repository a star!
+* **Bill ₹499 or more:** Free Delivery
+* **Bill below ₹499:** ₹50 Delivery Charge
+
+## 🛠️ Technologies Used
+
+* **Python 3**
+* `while` loops
+* `if-elif-else`
+* User input
+* Variables
+* f-strings
+* Basic arithmetic
+
+## ▶️ How to Run
+
+1. Install **Python 3** on your computer.
+2. Download or clone this repository.
+3. Open the Python file.
+4. Run it using:
+
+```bash
+python pizza_billing.py
+```
+
+5. Follow the instructions shown in the terminal.
+
+## 🧾 Example
+
+```text
+Size of pizza (s/m/l) : m
+qty : 2
+
+do you want extra cheese , y or n : y
+how many packets : 1
+
+do you want cold drink , y or n : y
+how many bottles : 2
+```
+
+The program then calculates the pizza, cheese, cold drink, and delivery charges and prints the final bill.
+
+## 🎯 Purpose
+
+This project was created as a **beginner Python project** to practice programming fundamentals and build a real-life billing system.
+
+## 👨‍💻 Author
+
+**Kshitij Soni**
+
+GitHub: **Kshitij-soni15**
+
+⭐ If you find this project useful, feel free to explore the repository!
